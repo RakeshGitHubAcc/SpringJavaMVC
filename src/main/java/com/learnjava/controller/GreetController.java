@@ -11,7 +11,7 @@ public class GreetController {
 	@RequestMapping(value = "/greet/{name}", method = RequestMethod.GET)
 	public String greet(@PathVariable String name, ModelMap model) {
 		String greet = "Hello!!! " + name + " how are You?";
-		model.addAttribute("greet" + greet);
+		model.addAttribute("greet", greet);
 		System.out.println(greet);
 		return "greet";
 	}

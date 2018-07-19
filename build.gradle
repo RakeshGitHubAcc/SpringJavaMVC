@@ -1,5 +1,6 @@
 apply plugin: 'java'
 apply plugin: 'war'
+apply plugin: 'eclipse'
 group = 'com.learnjava'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = 1.8
