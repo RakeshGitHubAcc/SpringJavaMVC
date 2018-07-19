@@ -11,7 +11,7 @@
 <h1>Welcome to Spring 4 and Servlet 3 Based Application</h1>
 <body>
 	<div>
-		<c:out value="${greet}" />
+	${greet}
 	</div>
 </body>
 </html>
